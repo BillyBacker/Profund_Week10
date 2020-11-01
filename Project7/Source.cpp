@@ -28,7 +28,7 @@ vector<int> triangleRow(int rowNum) {
 int main() {
 	vector<int> output;
 	int row, factor = 2;
-	printf("Enter row of triangle (<=25): ");
+	printf("Enter row of triangle (0-25): ");
 	scanf("%d", &row);
 	if (row <= 6) {
 		factor = 1;
