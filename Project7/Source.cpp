@@ -28,12 +28,12 @@ vector<int> triangleRow(int rowNum) {
 int main() {
 	vector<int> output;
 	int row, factor = 2;
-	printf("Enter row of triangle (0-25): ");
+	printf("Enter row of triangle (1-25): ");
 	scanf("%d", &row);
-	if (row <= 6) {
+	if (row <= 6 && row >= 1) {
 		factor = 1;
 	}
-	else if(row <= 25){
+	else if(row <= 25 && row >= 1){
 		factor = 2;
 	}
 	else {
